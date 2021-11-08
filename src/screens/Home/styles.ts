@@ -1,16 +1,17 @@
 import { StyleSheet } from "react-native";
+import { COLORS } from '../../theme';
 
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#E5E7EB'
+    backgroundColor: COLORS.BLACK_SECONDARY
   },
 
   text: {
     fontSize: 30,
     fontWeight: 'bold',
-    color: '#374151'
+    color: COLORS.GRAY_TERTIARY
   }
 })
