@@ -15,8 +15,8 @@ export const Header = () => {
         </TouchableOpacity>
 
         <UserPhoto 
-          imageUri=''
-          sizes="SMALL"
+          imageUri='https://avatars.githubusercontent.com/u/47955200?v=4'
+          sizes="NORMAL"
         />
       </View>
     </View>
